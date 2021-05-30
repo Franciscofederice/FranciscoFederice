@@ -1,0 +1,249 @@
+/*
+id #
+class .
+*/
+/*AGREGADO 11-11*/
+*{
+    box-sizing: border-box;
+}
+
+#miMenu {
+	list-style: none;
+	background-color: #343c44;
+}
+
+#miMenu li {
+	display: inline-block;
+}
+
+.img{
+	float: right;
+}
+
+
+
+#miMenu li a:hover {
+	background: #343c44;
+}
+.bd-placeholder-img {
+       font-size: 1.125rem;
+       text-anchor: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+     }
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.tm-service2-icon {
+    color: #080808!important;
+
+}
+
+.tm-service2 {
+    padding: 0;
+}
+
+.tm-service2 {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0 25px;
+    margin-top: 50px;
+
+}
+.flaticon
+    {
+        line-height: 1!important;
+    }
+
+
+#carousel{
+align-content: center;
+}
+nav{
+  background-color: black;
+}
+ 
+
+
+
+    /*=-footer-=*/
+    footer {
+        color: #fff;
+        background-attachment: fixed;
+        background-color:#222;
+background-image: url(https://s7.postimg.org/uyf0oioaz/footer-bg.png);
+        background-size: cover;
+        background-position: bottom;
+    }
+    footer p {
+        color: #ccc;
+    }
+footer a {
+        color: #ccc;
+    }
+    .social-pet li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .social-pet li a {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        text-align: center;
+        display: block;
+        line-height: 35px;
+        background-color: #3a5a95;
+        color: #fff;
+    }
+    .social-pet li:nth-child(2) a {
+        background-color: #57aced;
+    }
+    .social-pet li:nth-child(3) a {
+        background-color: #dd4f43;
+    }
+    .social-pet li:nth-child(4) a {
+        background-color: #6b27b2;
+    }
+    .social-pet li a:hover {
+        background-color: #0141a2;
+    }
+    .social-pet li a:hover i {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    .recent-post li {
+        display: block;
+        color: #ccc;
+        margin-bottom: 25px;
+    }
+    .recent-post li label {
+        float: left;
+        border: 2px solid #ccc;
+        padding: 1px 7px;
+        text-align: center;
+    }
+    .recent-post li label span {
+        color: #fff;
+    }
+    footer .input-group-addon {
+        background-color: #0141a2;
+        padding: 10px;
+    }
+    .f-address li {
+        display: inline-block;
+    }
+    .f-address li i {
+        color: #2995de;
+        font-size: 18px;
+    }
+    .f-address li a {
+        color: #ccc;
+    }
+    /*=-Copyright-=*/
+    .copyright {
+        background-color: #111;
+        padding: 12px 0;
+font-size:14px;
+    }
+
+
+    /*
+         We are clearing the body's margin and padding, so that the header fits properly.
+         We are also adding a height to demonstrate the scrolling behavior. You can remove
+         these styles.
+     */
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+
+[ Contact ]*/
+
+.container-contact100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.contact100-map {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.wrap-contact100 {
+  width: 1170px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 82px 180px 33px 180px;
+  position: relative;
+  display: none;
+}
+
+.show-wrap-contact100 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img-Porfolio{
+    height: auto;
+    width: 15%;
+    padding-inline-end: 2px;
+    margin-top:2%;
+    background-position: center;
+    margin-bottom: 2px;
+}   
+.img-logo-desa{
+    height: auto;
+    width: 15%;
+    padding-inline-end: 2px;
+    margin-top:2%;
+    background-position: center;
+    margin-bottom: 2px;
+}   
+
+.card-text{ 
+    background-color:white;
+    }
+
+    .img-sobre{
+        height: auto;
+        width: 15%;
+        padding-inline-end: 2px;
+        margin-top:2%;
+        background-position: center;
+        margin-bottom: 2px;
+        vertical-align: middle;
+        float: right;
+    }  
+
+.p-sobremi{
+    font-size: 1.4em;
+}  
