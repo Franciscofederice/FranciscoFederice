@@ -227,6 +227,7 @@ font-size:14px;
     margin-top:2%;
     background-position: center;
     margin-bottom: 2px;
+    margin: 20px;
 }   
 
 .card-text{ 
@@ -246,4 +247,8 @@ font-size:14px;
 
 .p-sobremi{
     font-size: 1.4em;
+    margin: 20px;
 }  
+.h1-sobremi{
+    margin: 20px;
+}
